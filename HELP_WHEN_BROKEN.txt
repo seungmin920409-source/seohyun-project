@@ -1,0 +1,19 @@
+고장났을 때(영어 못 읽어도) 이것만 따라하세요
+
+1) 최근 오류 요약 보기
+   logs\promote\최근오류_요약.txt
+
+2) 센터에서 실패 항목 보기
+   tools\PROMOTE_VIEW_CENTER.bat 더블클릭
+
+3) 문법(중괄호) 검사
+   tools\CHECK_PROMOTE_SYNTAX.bat 더블클릭
+   ParseErrors=0 이면 문법 정상
+
+4) 가장 최신 실패 로그 열기
+   logs\promote\promote_fail_*.json (시간이 가장 최신)
+
+자주 터지는 원인 TOP 3
+- Force 옵션 누락
+- RunRoot/Src 경로 틀림
+- try/catch/finally 중괄호 깨짐
